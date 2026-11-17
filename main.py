@@ -29,7 +29,7 @@ def calc_y(s):
     return 1 / (1 + exp(-beta*s))
 
 # liczymy v
-epochs = 1000
+epochs = 5000
 for epoch in range(epochs):
     
     errors = []
