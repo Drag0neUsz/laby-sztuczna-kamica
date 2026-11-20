@@ -1,0 +1,33 @@
+
+Epoka 0:
+           TRAIN SET                              TEST SET
+          Pred 1    Pred 0                       Pred 1    Pred 0
+        +---------+---------+                  +---------+---------+
+Akt 1   | TP:0    | FN:25   |          Akt 1   | TP:0    | FN:9    |
+        +---------+---------+                  +---------+---------+
+Akt 0   | FP:0    | TN:35   |          Akt 0   | FP:0    | TN:10   |
+        +---------+---------+                  +---------+---------+
+accuracy na tr_set: 58.33%
+accuracy na test_set: 52.63%
+
+Epoka 500:
+           TRAIN SET                              TEST SET
+          Pred 1    Pred 0                       Pred 1    Pred 0
+        +---------+---------+                  +---------+---------+
+Akt 1   | TP:24   | FN:1    |          Akt 1   | TP:7    | FN:2    |
+        +---------+---------+                  +---------+---------+
+Akt 0   | FP:7    | TN:28   |          Akt 0   | FP:5    | TN:5    |
+        +---------+---------+                  +---------+---------+
+accuracy na tr_set: 86.67%
+accuracy na test_set: 63.16%
+
+Epoka 999:
+           TRAIN SET                              TEST SET
+          Pred 1    Pred 0                       Pred 1    Pred 0
+        +---------+---------+                  +---------+---------+
+Akt 1   | TP:25   | FN:0    |          Akt 1   | TP:7    | FN:2    |
+        +---------+---------+                  +---------+---------+
+Akt 0   | FP:4    | TN:31   |          Akt 0   | FP:1    | TN:9    |
+        +---------+---------+                  +---------+---------+
+accuracy na tr_set: 93.33%
+accuracy na test_set: 84.21%
